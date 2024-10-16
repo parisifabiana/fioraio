@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#f0f8ff"/>
+  <circle cx="150" cy="100" r="70" fill="#ff69b4"/>
+  <circle cx="150" cy="100" r="50" fill="#ff1493"/>
+  <circle cx="150" cy="100" r="30" fill="#ff69b4"/>
+  <path d="M 80 160 Q 150 180 220 160" stroke="#228b22" stroke-width="4" fill="none"/>
+  <text x="150" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000000">L'arte dei fiori</text>
+</svg>
