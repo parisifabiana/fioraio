@@ -31,8 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();                                      // Usa SMTP
         $mail->Host       = 'smtp.office365.com';        // Server SMTP di Hotmail/Outlook
         $mail->SMTPAuth   = true;                             // Abilita autenticazione SMTP
-        $mail->Username   = 'fabianaparisi.itconsulting@outlook.it';      // Il tuo indirizzo email Hotmail/Outlook
-        $mail->Password   = 'Itconsulting2024!';           // La tua password o password per app
+        $mail->Username   = '';      // Il tuo indirizzo email Hotmail/Outlook
+        $mail->Password   = '';           // La tua password o password per app
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   // Abilita TLS implicito
         $mail->Port       = 587;                              // Porta TCP da usare
 
